@@ -31,6 +31,8 @@ context_length: 1000000
 - SOUL文件: `~/.hermes/robot-3/SOUL.md`
 - 角色配置: `~/.hermes/robot-3/ROLE_CONFIG.md` (本文件)
 - 数据目录: `~/.hermes/robot-3/data/`
+- 日志目录: `~/.hermes/robot-3/logs/` (禁止删除)
+- 会话目录: `~/.hermes/robot-3/sessions/` (禁止删除)
 
 ## 自主管理权限
 1. ✅ 管理自身的 SOUL 文件
@@ -44,10 +46,11 @@ context_length: 1000000
 2. ❌ 禁止自动新增策略条件
 3. ❌ 不能修改其他 Robot 的配置
 4. ❌ 不能访问其他 Robot 的私有数据
+5. ❌ 不能修改 .env / Provider 配置
 
 ## 更新记录
-- 创建时间: 2026-05-08
-- 更新时间: 2026-05-11
-- 更新原因: v2.1.0 架构调整 - 原持仓管理职能迁移至 robot-2（Risk）
+- 创建时间: 2026-05-11
+- 更新原因: v2.1.0 Hermes+OpenClaw 核心闭环重构
+- 架构版本: v2.1.0
 
 > **注意**: 本文件由 Robot 自身维护，如需修改请联系对应 Robot 或系统管理员。
